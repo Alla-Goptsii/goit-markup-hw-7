@@ -4,29 +4,29 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
 
-.container__footer {
-  display: flex;
-  align-items: baseline;
+  &__footer {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .section {
   padding-top: var(--backdown-tipical);
   padding-bottom: var(--backdown-tipical);
-}
 
-.section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
 
-  color: var(--color-title);
-}
+    color: var(--color-title);
+  }
 
-.section__team {
-  background-color: #f5f4fa;
+  &__team {
+    background-color: #f5f4fa;
+  }
 }

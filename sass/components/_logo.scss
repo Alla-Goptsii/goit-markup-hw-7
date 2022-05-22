@@ -11,11 +11,11 @@
   display: inline-block;
 
   color: var(--color-accent);
-}
 
-.logo--header {
-  color: #000000;
-}
-.logo--footer {
-  color: #ffffff;
+  &--header {
+    color: #000000;
+  }
+  &--footer {
+    color: #ffffff;
+  }
 }
