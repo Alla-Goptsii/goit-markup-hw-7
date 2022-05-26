@@ -1,19 +1,8 @@
-.client-list {
+.clients {
   display: flex;
 }
 
-.client-title {
-  margin-bottom: 50px;
-  text-align: center;
-
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--color-title);
-}
-.client-item {
+.client__item {
   width: 170px;
   height: 92px;
   &:not(:last-child) {
@@ -21,7 +10,7 @@
   }
 }
 
-.client-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;

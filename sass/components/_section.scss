@@ -1,0 +1,19 @@
+.section {
+  padding-top: var(--backdown-tipical);
+  padding-bottom: var(--backdown-tipical);
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+
+    color: var(--color-title);
+  }
+
+  &--other-bcg {
+    background-color: #f5f4fa;
+  }
+}

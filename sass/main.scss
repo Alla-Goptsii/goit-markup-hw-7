@@ -1,11 +1,15 @@
 @import "./utils/variables";
 @import "./components/container";
+@import "./components/section";
 
 @import "./_base/reset";
 @import "./_base/common";
 
 @import "./utils/hidden";
-@import "./components/button";
+@import "./components/button/button-hero";
+@import "./components/button/button-footer";
+@import "./components/button/button-modal";
+@import "./components/button/button-filtr";
 @import "./lauoyt/header";
 @import "./components/logo";
 @import "./lauoyt/hero";

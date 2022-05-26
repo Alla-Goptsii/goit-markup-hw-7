@@ -2,7 +2,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.container__nav,
+.container__header,
 .site-nav {
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
   }
 }
 
-.site-nav__item-current {
+.site-nav__link-current {
   position: relative;
 
   &::after {
@@ -47,7 +47,7 @@
     background-color: var(--color-accent);
     border-radius: 2px;
     left: 0;
-    bottom: -31px;
+    bottom: -32px;
   }
 }
 
@@ -79,7 +79,7 @@
   }
 }
 
-.contact__img {
+.contact__icon {
   display: flex;
   align-items: center;
   justify-content: center;

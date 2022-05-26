@@ -1,7 +1,7 @@
 .team {
   display: flex;
 
-  &__list {
+  &__item {
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@
     color: var(--color-title);
   }
 
-  &__item {
+  &__text {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -32,7 +32,7 @@
     margin-top: 10px;
   }
 
-  &__text {
+  &__box {
     padding-top: var(--card-set-gap);
     padding-bottom: var(--card-set-gap);
     padding-right: 32px;
